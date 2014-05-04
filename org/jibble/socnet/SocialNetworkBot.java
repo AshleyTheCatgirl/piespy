@@ -181,7 +181,7 @@ public class SocialNetworkBot extends PircBot {
     
     // Overridden from PircBot.
     protected void onNickChange(String oldNick, String login, String hostname, String newNick) {
-        changeNick(oldNick, newNick);
+        // changeNick(oldNick, newNick);
     }
     
     // Overridden from PircBot.
